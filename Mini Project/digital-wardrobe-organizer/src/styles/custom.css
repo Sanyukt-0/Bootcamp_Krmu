@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-canvas: #ede9e1;
+  --color-ink: #1f2421;
+  --color-denim: #36456b;
+}
+
+@layer base {
+  body {
+    @apply bg-canvas text-ink;
+  }
+}
+
+@layer components {
+  /* Shared input/select styling used across the "Add Item" and
+     "Create Outfit" forms, so form fields stay visually consistent. */
+  .form-input {
+    @apply px-3 py-2 rounded-md border border-ink/15 bg-white text-sm font-body
+      focus:outline-none focus:ring-2 focus:ring-denim/40;
+  }
+}
+
+/* The signature detail: every clothing card reads like a garment swing-tag,
+   complete with a punched hole at the top edge. */
+.tag-hole {
+  position: absolute;
+  top: -6px;
+  left: 20px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--color-canvas);
+  border: 2px solid rgba(31, 36, 33, 0.15);
+  z-index: 5;
+}
+
+::-webkit-scrollbar {
+  height: 6px;
+  width: 6px;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(31, 36, 33, 0.2);
+  border-radius: 4px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
