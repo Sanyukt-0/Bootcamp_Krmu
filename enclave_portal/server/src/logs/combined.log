@@ -1,0 +1,25 @@
+2026-07-03 14:44:55 [ERROR] MongoDB Connection Failed : querySrv ECONNREFUSED _mongodb._tcp.cluster0.ridlu7c.mongodb.net
+2026-07-03 14:46:26 [ERROR] MongoDB Connection Failed : querySrv ECONNREFUSED _mongodb._tcp.cluster0.ridlu7c.mongodb.net
+2026-07-03 14:50:20 [ERROR] MongoDB Connection Failed : querySrv ECONNREFUSED _mongodb._tcp.cluster0.ridlu7c.mongodb.net
+2026-07-03 14:50:55 [ERROR] MongoDB Connection Failed : querySrv ECONNREFUSED _mongodb._tcp.cluster0.ridlu7c.mongodb.net
+2026-07-03 14:54:32 [ERROR] MongoDB Connection Failed : querySrv ECONNREFUSED _mongodb._tcp.cluster0.ridlu7c.mongodb.net
+2026-07-03 15:27:46 [INFO] MongoDB Connected : ac-ahhsln2-shard-00-02.ridlu7c.mongodb.net
+2026-07-03 15:27:46 [INFO] Server running on http://localhost:8888
+2026-07-03 15:29:09 [INFO] MongoDB Connected : ac-ahhsln2-shard-00-01.ridlu7c.mongodb.net
+2026-07-03 15:29:09 [INFO] Server running on http://localhost:8888
+2026-07-03 15:29:16 [INFO] MongoDB Connected : ac-ahhsln2-shard-00-01.ridlu7c.mongodb.net
+2026-07-03 15:29:16 [INFO] Server running on http://localhost:8888
+2026-07-03 15:31:59 [INFO] MongoDB Connected : ac-ahhsln2-shard-00-01.ridlu7c.mongodb.net
+2026-07-03 15:31:59 [INFO] Server running on http://localhost:8888
+2026-07-06 13:32:28 [INFO] MongoDB Connected : ac-ahhsln2-shard-00-02.ridlu7c.mongodb.net
+2026-07-06 13:32:28 [INFO] Server running on http://localhost:8888
+2026-07-06 13:33:26 [INFO] New contact submitted by jhx@gmail.com
+2026-07-06 13:33:26 [HTTP] ::1 - - [06/Jul/2026:08:03:26 +0000] "POST /api/contact HTTP/1.1" 201 314 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-06 13:33:28 [HTTP] ::1 - - [06/Jul/2026:08:03:28 +0000] "GET /api/admin/contacts HTTP/1.1" 200 274 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-06 13:33:28 [HTTP] ::1 - - [06/Jul/2026:08:03:28 +0000] "GET /api/admin/contacts HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-06 13:35:44 [INFO] Contact deleted : 6a4b614e699fd5ef571dd1de
+2026-07-06 13:35:44 [HTTP] ::1 - - [06/Jul/2026:08:05:44 +0000] "DELETE /api/admin/contacts/6a4b614e699fd5ef571dd1de HTTP/1.1" 200 58 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-06 13:35:57 [INFO] New contact submitted by jhx@gmail.com
+2026-07-06 13:35:57 [HTTP] ::1 - - [06/Jul/2026:08:05:57 +0000] "POST /api/contact HTTP/1.1" 201 290 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-06 13:35:59 [HTTP] ::1 - - [06/Jul/2026:08:05:59 +0000] "GET /api/admin/contacts HTTP/1.1" 200 250 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-06 13:35:59 [HTTP] ::1 - - [06/Jul/2026:08:05:59 +0000] "GET /api/admin/contacts HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
