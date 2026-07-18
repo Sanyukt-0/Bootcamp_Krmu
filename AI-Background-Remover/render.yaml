@@ -1,0 +1,21 @@
+services:
+  - type: web
+    name: ai-background-remover-backend
+    env: node
+    region: oregon
+    plan: free
+    rootDir: backend
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 10000
+      - key: MONGO_URI
+        sync: false   # Set this in the Render dashboard (use MongoDB Atlas)
+      - key: REMOVE_BG_API_KEY
+        sync: false   # Set this in the Render dashboard
+      - key: FRONTEND_URL
+        sync: false   # Set to your Vercel URL e.g. https://your-app.vercel.app
+    healthCheckPath: /health
