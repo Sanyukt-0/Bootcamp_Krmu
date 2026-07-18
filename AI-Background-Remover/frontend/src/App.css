@@ -1,0 +1,9 @@
+/*
+ * App.css
+ * App layout definitions (see global.css for styling systems).
+ */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}

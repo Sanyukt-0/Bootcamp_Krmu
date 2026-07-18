@@ -1,0 +1,22 @@
+/**
+ * utils/logger.js
+ * Basic logger utility containing level stamps.
+ */
+
+const info = (message, ...args) => {
+  console.log(`[INFO] ${new Date().toISOString()} - ${message}`, ...args);
+};
+
+const warn = (message, ...args) => {
+  console.warn(`[WARN] ${new Date().toISOString()} - ${message}`, ...args);
+};
+
+const error = (message, ...args) => {
+  console.error(`[ERROR] ${new Date().toISOString()} - ${message}`, ...args);
+};
+
+module.exports = {
+  info,
+  warn,
+  error
+};
